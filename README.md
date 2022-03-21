@@ -33,7 +33,7 @@ Use `<pre>` elements as the code editors space. You can set inicial code into th
 
 Set the `class` property with "editor" to mark this element for AutoAce to transform into a code editor, and define a id for it starting as "editor\_" in the `id` property. You can set the code language for Ace in the `data-linguagem` property, and the Ace theme in the `data-acetheme`.
 
-If you want a Livecode view of the code in which code editor, create `<iframe>` elements with "View\_" and the `id` of the desired editor:
+If you want a Livecode view of the code in each code editor, create `<iframe>` elements with "View\_" and the `id` of the desired editor:
 
 ```html
 <iframe id="View_editor_1"></iframe>
