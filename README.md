@@ -40,3 +40,12 @@ If you want a Livecode view of the code in each code editor, create `<iframe>` e
 ```
 
 See a [working example here](https://www.ranoya.com/Assets/JSLibs/AutoAce/example.html).
+
+You can insert previous and post codes to complete the ones edited in `<pre>` elements. To do that, create variables "Predata*" and "Postdata*" completed with the editors `id`, like these:
+
+```js
+Predata_editor_1 = "<h1>";
+Postdata_editor_1 = "</h1>";
+```
+
+These editors can run javascript code, and anything loaded in the page (or via Predata).
